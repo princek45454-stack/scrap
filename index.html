@@ -68,14 +68,18 @@
 <!-- BOOKING -->
 <section class="booking">
   <h2>Book Scrap Pickup</h2>
-  <form>
-    <input type="text" placeholder="Your Name" required>
-    <input type="tel" placeholder="Mobile Number" required>
-    <input type="text" placeholder="Address" required>
-    <textarea placeholder="Scrap Details"></textarea>
+
+  <form id="scrapForm">
+    <input type="text" id="name" placeholder="Your Name" required>
+    <input type="tel" id="mobile" placeholder="Mobile Number" required>
+    <input type="text" id="address" placeholder="Pickup Address" required>
+    <textarea id="details" placeholder="Scrap Details"></textarea>
     <button type="submit">Book Now</button>
   </form>
+
+  <p id="msg"></p>
 </section>
+
 
 <footer>
   © 2025 ScrapBuddy. All Rights Reserved.
