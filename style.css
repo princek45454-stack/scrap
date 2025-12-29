@@ -1,0 +1,102 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  margin: 0;
+  background: #f4fbf8;
+  color: #333;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 40px;
+  background: #1e7f5c;
+  color: white;
+}
+
+.navbar a {
+  margin: 0 10px;
+  color: white;
+  text-decoration: none;
+}
+
+.nav-btn {
+  background: white;
+  color: #1e7f5c;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 20px;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 60px;
+}
+
+.hero-text h1 {
+  font-size: 42px;
+  color: #1e7f5c;
+}
+
+.hero-img img {
+  width: 350px;
+}
+
+.main-btn {
+  padding: 12px 30px;
+  background: #1e7f5c;
+  color: white;
+  border: none;
+  border-radius: 25px;
+}
+
+.steps, .categories, .rates, .booking {
+  padding: 60px;
+  text-align: center;
+}
+
+.step-box, .category-grid, .rate-grid {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.step, .card, .rate-card {
+  background: white;
+  padding: 25px;
+  border-radius: 15px;
+  width: 220px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+.booking form {
+  max-width: 400px;
+  margin: auto;
+}
+
+.booking input, .booking textarea {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+}
+
+.booking button {
+  width: 100%;
+  padding: 12px;
+  background: #1e7f5c;
+  color: white;
+  border: none;
+}
+
+footer {
+  background: #1e7f5c;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
