@@ -11,7 +11,7 @@ form.addEventListener("submit", function(e) {
     details: document.getElementById("details").value
   };
 
-  fetch("https://script.google.com/macros/s/AKfycbyM_1EdveCwV4IvWJ-0OpvsCXMP8-0dFYR-0gDGi5HfBeO2oGT3MSOdVZq3v76kXlFr/exec", {
+  fetch("https://script.google.com/macros/s/AKfycbwaGFhi6rT66ZiZkPdcgkexbKouv0wM1fGeRpK_3P8auq4HEH23IDX4IsNGwVoMCmqk/exec", {
     method: "POST",
     body: JSON.stringify(data)
   })
